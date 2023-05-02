@@ -1,0 +1,62 @@
+#login{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    border: 1px;
+
+}
+.form label{
+    color: white;
+    font-family: verdana;
+
+}
+h1{
+    color: white;
+
+}
+.form{
+    padding: 30px;
+    border-radius: 2px;
+    width: 250px;
+
+}
+form input{
+    width: 250px;
+    height: 20px;
+    border: none;
+    margin: 0 auto;
+
+}
+.form label{
+    font-family: verdana;
+
+}
+.form h1{
+    text-align: center;
+
+}
+body{
+    background: linear-gradient(to bottom right,blue,black);
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: whitesmoke;
+    text-align: center;
+}
+#colunas{
+    display:inline-block;
+    padding: 50px;
+}
+.coluna-50{
+    width: 100%;
+}
+.container {
+    width: 98vw;
+    height: 97vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

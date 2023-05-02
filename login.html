@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>login</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='login.css'>
+    <script src='login.js'></script>
+</head>
+
+<body>
+    <form method='post' action='' class="form"></form>
+    <div class="container">
+        <div id="login">
+            <div class="coluna-50">
+                <div id="colunas">
+                    <h1>CADASTRE-SE</h1>
+                    <p>
+                        <label for="Nome e Sobrenome">Nome Completo</br></label>
+                        <input type="nomesobrenome" id="nomesobrenome" name="nomesobrenome" required
+                            placeholder="nome Completo"><br>
+                    </p>
+                    <p>
+                        <label for='email'>E-mail</br></label>
+                        <input type='email' id='email' name='email' required placeholder="seuemail@dominio.com"><br>
+                    </p>
+                    <p>
+                        <label for="Senha">Senha</br></label>
+                        <input type="password" id="Senha" class="input-padrao" required placeholder="Insira sua Senha">
+                    </p>
+                    <p>
+                        <label for='subject'>TELEFONE</br></label>
+                        <input type="telefone" id="telefone" name="telefone" required
+                            placeholder="(99) 9 9999-9999"><br>
+                    </p>
+                    <p>
+                        <label for="Data de nascimento">Data de nascimento</br></label>
+                        <input type="Datnasc" id="Data de nascimento" class="input-padrao" required
+                            placeholder="Sua Data de nascimento"><br>
+                    </p>
+                    <p>
+                        <label for="CPF">CPF</br></label>
+                        <input type="text" id="CPF" class="input-padrao" required placeholder="Insira seu CPF">
+                    </p>
+                </div>
+                <div id="colunas">
+                    <h2>Endereço</h2>
+                    <p>
+                        <label for="CEP">Cep</br></label>
+                        <input type="cep" id="cep" class="input-padrao" required placeholder="Insira seu CEP">
+                    </p>
+                    <p>
+                        <label for="Endereço">Endereço</br></label>
+                        <input type="Endereço" id="Endereço" class="input-padrao" required
+                            placeholder="Insira seu Endereço">
+                    </p>
+                    <p>
+                        <label for="numero">Numero</br></label>
+                        <input type="number" id="number" class="input-padrao" required placeholder="Insira seu numero">
+                    </p>
+                    <p>
+                        <label for="complemento">complemento</br></label>
+                        <input type="complemento" id="complemento" class="input-padrao" required
+                            placeholder="Insira seu complemento">
+                    </p>
+                    <p>
+                        <label for="bairro">bairro</br></label>
+                        <input type="text" id="bairro" class="input-padrao" required placeholder="Insira seu bairro">
+                    </p>
+                    <p>
+                        <label for="cidade">cidade</br></label>
+                        <input type="text" id="cidade" class="input-padrao" required placeholder="Insira sua cidade">
+                    </p>
+                    <p>
+                        <label for="estado">estado</br></label>
+                        <input type="text" id="estado" class="input-padrao" required placeholder="Insira seu estado">
+                    </p>
+                    <p>
+                    <p></p>
+                    <label for="ponto de referencia">ponto de referencia</br></label>
+                    <input type="text" id="ponto de referencia" class="input-padrao" required
+                        placeholder="ex.supermercado do Seu ze"></p>
+                </div>
+                <br><button onclick="Validar()">CADASTRAR</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
